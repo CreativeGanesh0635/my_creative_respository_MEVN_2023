@@ -1,0 +1,53 @@
+<html lang="en">
+    <head>
+        <title> Layout PAge</title>
+        <meta charset="utf-8"> </meta>
+        <meta name="viewport" content="width=device-width"></meta>
+    <style>
+         *{
+        box-sizing: border-box;
+         }
+         body{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background-color: aquamarine;
+         }
+         header{
+        background-color: cornflowerblue;
+        padding: 30px;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+         }
+         nav{
+        width: 100px;
+         }
+         @media(max-width:600px){
+            nav,article{
+                width: 100%;
+                height: auto;
+            }
+         }
+    </style>
+    </head>
+    <body>  
+        <h2>CSS Layout</h2>
+        <p>This is my paragraph using p tag</p>
+        <header>
+            <h2>Great Warriors</h2>
+        </header>
+        <section>
+            <nav>
+                <ul>
+                    <li>Chhatrapati Shivaji Maharaj</li>
+                    <li>Sambaji Maharaj</li>
+                </ul>
+            </nav>
+            <br> 
+            <article>
+                <h1>Chatrapati Shivaji</h1>
+                <p>The founder of the Maratha dynasty in India, Chatrapati Shivaji is regarded as one of the most valiant warriors who dared to stand up against the mighty Mughals, and defeated them several times.</p>
+                <p>The murder of Afzal Khan with tiger paws is a story for the history textbooks, the story of an immensely brave and clever tactician who stopped at nothing to protect his Maratha empire from Mughal invasion.</p>
+              </article>   
+        </section> 
+    </body>
+</html>

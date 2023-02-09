@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title> My Page </title>
+    </head>
+    <body>
+        <h2 id="demo"></h2>
+        <p id="test">My Paragraph is here...</p>
+        <script>
+            function outer(){
+                var outervar = 10;
+                function inner(){
+                    document.getElementById('demo').innerHTML= outervar;
+                }
+                inner();
+            }
+            outer();
+        </script>
+    </body>
+</html>
