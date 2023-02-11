@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <p id="demo"></p>
+        <script>
+            const cars = ["Jaguar", "Benz", "Land Rover"];
+            cars.sort();
+            let text="";
+            //for loop: iteration between elements
+            for(let i=0; i<cars.length; i++)
+            {
+                text += cars[i]+ "<br>";
+            }
+            document.getElementById("demo").innerHTML = text;
+        </script>
+    </body>
+</html>
