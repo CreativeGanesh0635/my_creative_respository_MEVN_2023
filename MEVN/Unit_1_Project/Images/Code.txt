@@ -1,0 +1,4 @@
+<img src="Images/trail-1.png" alt="" style="width: 100%;">
+        <div id="body_hero_img_div1">
+
+        </div>

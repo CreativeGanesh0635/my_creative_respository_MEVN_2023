@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+/*-------- My Header Section --------*/
+
+#header_section_logo{
+    width: 136px;
+    margin: 0px 94px;
+}
+
+.header_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 9px;
+    background-color: #c0c0c0; 
+    font-family: 'Macondo', cursive;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
+}
+
+.header_section_nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+}
+
+.header_section_nav_ul li{
+    list-style-type: none;
+    padding: 0px 37px;
+    cursor: pointer;    
+}
+
+.header_section_nav_ul li:hover{
+    color:rgb(113, 106, 106);
+}
+
+/*--------- My Landing Model Section----------*/
+
+.body_landing_img{
+    background-image: url(Images/trail-1.png);
+    height: 89vh;
+    padding: 5% 5%;
+    line-height: 63px;
+    font-size: 31px;
+}
+
+.body_landing_img button {
+    background-image: url(Images/Paint_Brush_Stroke_Clipart_Hd_PNG__Black_Ink_Brush_Stroke__Square__Ink_Brush_Stroke__Png_PNG_Image_For_Free_Download-removebg-preview.png);
+    background-color: transparent;
+    border: none;
+    color: white;
+    background-repeat: no-repeat;
+    padding: 53px 53px;
+    background-position: center;
+    width: 191px;
+    background-color: transparent;
+    background-size: contain;
+    margin: -29px 27px;
+    font-family: 'Tourney', cursive;
+    cursor: pointer;
+    background-position: center;
+}
+
+/*----------- Best Product Cart Section------------*/
+
+.best_product_selling_section {
+    padding: 50px 30px;
+    position: relative;
+    font-size: 23px;
+}
+
+#best_product_selling_title {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.product_container{
+    display: flex;
+    width: 100%;
+    margin-left: 8px;
+    justify-content: space-between;
+}
+
+.product_container_cart{
+    border: 13px solid black;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+}
+
+.product_container_cart img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.product_container_cart img:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+
+.product_container_cart:nth-child(even){
+    border-color: #4f4c4c;
+} 
+
+.product_container_cart:nth-child(odd){
+    border-color: #999292;
+}
+
+.product_container_cart_p{
+    position: absolute;
+    font-family: 'Carter One', cursive;
+    top: 79%;
+    left: 47%;
+    font-size: 38px;
+    color: black;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+
+.product_container_cart:hover .product_container_cart_p{
+    opacity: 1;
+}
+
+.product_container_cart:hover .product_container_cart img{
+    opacity: 0.5;
+}
+
+/*------------ Mid_section------------  */
+
+.mid_section{
+    margin: 44px 15px;
+    margin-left: 41px;
+    position: relative; 
+    height: 800px;
+    width: 96%;
+    top: 0;
+    left: 0;
+}
+
+.mid_section_contanier img{
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    object-fit: cover;
+    object-position: top;
+}
+
+.mid_section_container_div{
+    position: absolute;
+    background-color: white;
+    width: 50%;
+    height: 75%;
+    display: block;
+    margin-left: 49%;
+    margin-top: 1.5%;
+    padding: 62px;
+    text-align: center;
+    line-height: 80px;
+}
+
+#mid_section_container_div_title{
+    font-size: 54px;
+    line-height: 98px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+
+}
+
+#title_span:hover{
+    color: chocolate;
+    cursor: pointer;
+}
+
+#mid_section_div_info{
+    font-size: 30px;
+    font-family: math;
+    line-height: 53px;
+    margin: 63px;
+}
+
+/*---------------- Explore more section ----------------*/
+
+.explore_more_section{
+    margin-top: -89px;
+}
+
+.explore_more_section_container{
+    color: white;
+    position: relative;
+    font-family: cursive;
+}
+
+.explore_more_section_container img{
+    object-fit: cover;
+    width: 100%;    
+}
+
+#explore_more_section_h4{
+    display: block;
+    position: absolute;
+    top: 21%;
+    left: 45%;
+    font-size: 22px;
+    letter-spacing: 3px;
+} 
+
+#explore_more_section_h1{
+    display: block;
+    position: absolute;
+    top: 36%;
+    left: 26%;
+    font-size: 34px;
+    letter-spacing: 3px;
+}
+
+#explore_more_section_btn{
+    display: block;
+    position: absolute;
+    top: 55%;
+    left: 46.8%;
+    border: 17px solid black;
+    padding: 12px;
+    border-radius: 36px;
+}
+
+#explore_more_section_btn:hover{
+    color: black;
+    background-color: rgb(248, 140, 0);
+}
