@@ -1,0 +1,38 @@
+<html lang="en">
+
+<head>
+	<title>My Box Hover</title>
+	
+	<style>
+        p{
+            text-align: center;
+            font-size: 50px;
+        }
+		.mybox {
+            margin: 5% 5%;
+			width: 200px;
+			height: 150px;
+			background-color: aqua;
+			border-radius: 25px;
+			transition: all 0.2s ease;
+			-webkit-transition: all 0.2s ease;
+		}
+
+		.mybox:hover {
+			background-color: rgb(61, 133, 214);;
+			width: 500px;
+			height: 250px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="mybox"></div>
+    <p id="p1"></p>
+
+	<script>
+        document.getElementById('p1').innerHTML= "I am Executing this code";
+    </script>
+</body>
+    
+</html>
