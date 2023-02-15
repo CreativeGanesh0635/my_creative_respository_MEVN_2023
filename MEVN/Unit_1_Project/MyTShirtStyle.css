@@ -1,0 +1,126 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+}
+
+/*-------My Nav Bar-------*/
+#header_section_logo{
+    width: 136px;
+    margin: 0px 94px;
+}
+
+.header_section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 9px;
+    background-color: #c0c0c0; 
+    font-family: 'Macondo', cursive;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    left: 0px;
+    top: 0px;
+}
+
+.header_section_nav_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 25px;
+}
+
+.header_section_nav_ul li{
+    list-style-type: none;
+    padding: 0px 37px;
+    cursor: pointer;    
+}
+
+.header_section_nav_ul li:hover{
+    color:rgb(113, 106, 106);
+}
+
+/*-------My Collection Section-------*/
+
+.best_product_selling_section {
+    padding: 50px 30px;
+    position: relative;
+    font-size: 23px;
+}
+
+#best_product_selling_title {
+    text-transform: uppercase;
+    text-align:center;
+    margin: 25px 0px 12px 0px;
+    font-size: 42px;
+}
+
+#best_product_selling_subtitle{
+    text-align: center;
+    font-size: 23px;
+    margin-bottom: 51px;
+}
+
+.product_container{
+    display: flex;
+    width: 100%;
+    margin-left: 8px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.product_container_cart{
+    border: 13px solid black;
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    width: 28%;
+    margin: 35px 0px;
+}
+
+.product_container_cart:hover{
+    cursor: pointer;
+}
+
+.product_container_cart img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.product_container_cart img:hover{
+    opacity: 0.5;
+    transition: 0.4s;
+}
+
+
+.product_container_cart:nth-child(even){
+    border-color: #4f4c4c;
+} 
+
+.product_container_cart:nth-child(odd){
+    border-color: #999292;
+}
+
+.product_container_cart_p{
+    position: absolute;
+    font-family: 'Carter One', cursive;
+    top: 79%;
+    left: 47%;
+    font-size: 38px;
+    color: black;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: .4s;
+}
+
+.product_container_cart:hover .product_container_cart_p{
+    opacity: 1;
+}
+
+.product_container_cart:hover .product_container_cart img{
+    opacity: 0.5;
+}
