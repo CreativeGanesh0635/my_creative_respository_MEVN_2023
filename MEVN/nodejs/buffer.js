@@ -10,18 +10,18 @@ console.log(buffer1.length);
 
 var bufferSource = new Buffer('ABC');//deprecated
 var bufferDestination = Buffer.alloc(3);
-bufferSrc.copy(bufferDest);
-var Data = bufferDest.toString('utf-8');
+bufferSource.copy(bufferDestination);
+var Data = bufferDestination.toString('utf-8');
 console.log(Data);
 
 //Slice
 var bufferOld = new Buffer('INDIA IS GREAT');
-var bufferNew = bufferIld.slice(0,4);
+var bufferNew = bufferOld.slice(0,4);
 console.log(bufferNew.toString());
 
 //Concat
 var bufferOne = new Buffer('INDIA');
-var bufferTwo = new Buffer('IS GREAT');
+var bufferTwo = new Buffer(' IS GREAT ');
 var bufferFour = new Buffer('JAY HAIND');
 var bufferThree = Buffer.concat([bufferOne, bufferTwo, bufferFour]);
 console.log(bufferThree.toString());
