@@ -36,7 +36,7 @@ font-size: 1.2rem;
 @media (min-width: 1024px) {
   .greetings h1,
   .greetings h3 {
-    text-align: left;
+    text-align: center;
   }
 }
 </style>
