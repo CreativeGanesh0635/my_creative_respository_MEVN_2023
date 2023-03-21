@@ -1,15 +1,15 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <demo msg="Welcome to My Page"/>
+  <myvuefile msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
-import demo from './components/demo.vue'
+import myvuefile from './components/myvuefile.vue'
 
 export default {
   name: 'App',
   components: {
-    demo
+    myvuefile
   }
 }
 </script>
