@@ -3,13 +3,13 @@
     <h1>{{ msg }}</h1>
     <h1>This is my heading</h1>
     <form action="">
-      Enter First Name :<input type="text" class="input" />
+      Enter First Name :  <input type="text" class="input" />
       <br />
       <br />
-      Enter Last Name :<input type="text" class="input" />
+      Enter Last Name :  <input type="text" class="input" />
       <br />
       <br />
-      <button>Submit</button>
+      <button>Submit</button> 
     </form>
   </div>
 </template>
