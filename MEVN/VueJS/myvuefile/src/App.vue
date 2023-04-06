@@ -1,15 +1,18 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <myvuefile msg="Welcome to Your Vue.js App"/>
+  <success msg="Welcome to Your Vue.js App"/>
 </template>
 
 <script>
 import myvuefile from './components/myvuefile.vue'
+import success from './components/success.vue'
 
 export default {
   name: 'App',
   components: {
-    myvuefile
+    myvuefile,
+    success
   }
 }
 </script>

@@ -9,7 +9,7 @@
       Enter Last Name : <input type="text" class="input" v-model="lastName" />
       <br />
       <br />
-      <button type="submit">Submit</button>
+      <button type="submit" @click="nextpage">Submit</button>
     </form>
   </div>
 </template>
@@ -28,9 +28,15 @@ export default {
     };
   },
   methods: {
-    submitForm() {
-      // Pass the first name and last name as props to the Success component
-      this.$router.push({ path: '/success', query: { firstName: this.firstName, lastName: this.lastName } });
+    navigateToNextPage() {
+      this.$router.push('/nextpage')
+    },
+    handleSubmit() {
+      // Perform form submission logic here
+      // ...
+
+      // Call nextpage method to navigate to the "nextpage" route
+      this.nextpage()
     }
   }
 };
